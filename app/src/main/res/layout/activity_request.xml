@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvGreeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number (03XXXXXXXXX)"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnCallNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call This Number"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/etLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Web link (e.g. uol.edu.pk)"
+        android:inputType="textUri" />
+
+    <Button
+        android:id="@+id/btnOpenLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Link" />
+</LinearLayout>
